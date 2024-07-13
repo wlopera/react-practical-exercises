@@ -60,3 +60,12 @@ Manejo de estilos y colores
 Manejo de errores:
 
 ![image](https://github.com/wlopera/react_banca/assets/7141537/57a1f296-7717-4dfa-aac3-94d0a5babcab)
+
+
+## Documentación
+
+Ver Proyecto Graphql-Server: https://github.com/wlopera/graphql-server
+
+Puedes ver el documento completo del proyecto en formato PDF desde el siguiente enlace:
+
+<a href="https://github.com/wlopera/react-practical-exercises/blob/4abf128047cd0980259ef8b45a3c70580330477c/src/doc/Proyecto-practical-exercises.pdf" target="_blank">Ver el PDF del proyecto</a>
