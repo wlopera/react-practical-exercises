@@ -11,10 +11,11 @@ const exercise =
 export const EventCapture = () => {
   const sum = (e) => {
     e.preventDefault();
-    const x = parseFloat(e.target.x.value);
-    const y = parseFloat(e.target.y.value);
+    const x = parseInt(e.target.x.value);
+    const y = parseInt(e.target.y.value);
     return alert(`${x} + ${y} = ${x + y}`);
   };
+
   return (
     <Container>
       <HeaderProcess

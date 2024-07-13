@@ -9,6 +9,8 @@ import store from "../../store/store";
 
 import styles from "./AdminScreen.module.css";
 import { EventCapture } from "../exercises/EventCapture";
+import { RandomNumber } from "../exercises/RandomNumber";
+import TableArticles from "../exercises/TableArticles";
 
 const data = [
   {
@@ -17,14 +19,14 @@ const data = [
     component: "/event/capture",
   },
   {
-    key: "admin-client",
-    name: "Clientes",
-    component: "/admin/client",
+    key: "random-number",
+    name: "Número Aleatorio",
+    component: "/random/number",
   },
   {
-    key: "admin-account",
-    name: "Cuentas",
-    component: "/admin/account",
+    key: "list-articles",
+    name: "Tabla de artículos",
+    component: "/list/articles",
   },
 ];
 
@@ -36,11 +38,11 @@ const AdminScreen = () => {
       case "/event/capture":
         return <EventCapture />;
 
-      // case "/admin/client":
-      //   return <Client />;
+      case "/random/number":
+        return <RandomNumber />;
 
-      // case "/admin/account":
-      //   return <Account />;
+      case "/list/articles":
+        return <TableArticles />;
 
       default:
         break;
