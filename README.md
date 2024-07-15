@@ -68,4 +68,4 @@ Ver Proyecto Graphql-Server: https://github.com/wlopera/graphql-server
 
 Puedes ver el documento completo del proyecto en formato PDF desde el siguiente enlace:
 
-<a href="https://github.com/wlopera/react-practical-exercises/blob/4abf128047cd0980259ef8b45a3c70580330477c/src/doc/Proyecto-practical-exercises.pdf" target="_blank">Ver el PDF del proyecto</a>
+<a href="https://github.com/wlopera/react-practical-exercises/blob/2f27bad9d9ebb88adaac93126a64b9f52079b105/src/doc/Proyecto-practical-exercises.pdf" target="_blank">Ver el PDF del proyecto</a>
