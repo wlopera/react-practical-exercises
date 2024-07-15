@@ -11,24 +11,11 @@ import styles from "./AdminScreen.module.css";
 import { EventCapture } from "../exercises/EventCapture";
 import { RandomNumber } from "../exercises/RandomNumber";
 import TableArticles from "../exercises/TableArticles";
+import { ThereDices } from "../exercises/ThreeDices";
+import { PageTitle } from "../exercises/PageTitle";
 
-const data = [
-  {
-    key: "event-capture",
-    name: "Controles formulario HTML",
-    component: "/event/capture",
-  },
-  {
-    key: "random-number",
-    name: "Número Aleatorio",
-    component: "/random/number",
-  },
-  {
-    key: "list-articles",
-    name: "Tabla de artículos",
-    component: "/list/articles",
-  },
-];
+import { menuData } from "../../data/Data";
+import { ListSum } from "../exercises/ListSum";
 
 const AdminScreen = () => {
   const [selectedOption, setSelectedOption] = useState("/event/capture");
@@ -44,6 +31,15 @@ const AdminScreen = () => {
       case "/list/articles":
         return <TableArticles />;
 
+      case "/three/dices":
+        return <ThereDices />;
+
+      case "/list/sum":
+        return <ListSum />;
+
+      case "/page/title":
+        return <PageTitle />;
+
       default:
         break;
     }
@@ -55,7 +51,7 @@ const AdminScreen = () => {
       <div className={styles.mainWrapper}>
         <Menu
           title="Ejecicios Prácticos"
-          data={data}
+          data={menuData}
           onSelected={setSelectedOption}
           selectedOption={selectedOption}
         />
