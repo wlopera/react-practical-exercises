@@ -10,17 +10,18 @@ Proyecto de estudio de ejercicios de react sin uso de internet.
 
 Crear proyecto
 
-![image](https://github.com/wlopera/react_banca/assets/7141537/4e64f160-8113-4589-baeb-0078d34ac485)
+![image](https://github.com/user-attachments/assets/f77fb31f-d7c1-4e7a-a07b-1b67100354a6)
+
 
 Subir servidor
 
-![image](https://github.com/wlopera/react_banca/assets/7141537/ac36061e-3e4a-4c07-8cee-bf59e7af7a66)
-![image](https://github.com/wlopera/react_banca/assets/7141537/a5d215d3-4c0e-4ec2-891f-2a4a507cdda3)
+![image](https://github.com/user-attachments/assets/df3d8ca7-28fd-4d99-bf2a-5ca4dd57982f)
+![image](https://github.com/user-attachments/assets/dab44d14-1a29-468c-b388-6b331ffb1160)
 
-VSCODE: Depurar el código
+VSCODE: Código
 
-![image](https://github.com/wlopera/react_banca/assets/7141537/fb54fbe0-53e5-4931-b74f-6df2cc901145)
-![image](https://github.com/wlopera/react_banca/assets/7141537/9c2ee5a4-dc82-4e23-9b17-05d61fc82bb9)
+![image](https://github.com/user-attachments/assets/2fda3b73-1893-4c7d-a1da-b92f44812f68)
+
 
 #### Código
 
@@ -51,21 +52,15 @@ Uso de mobx para Tener un almacén común de datos (por ahora mensajes al usuari
 
 Salida:
 
-![image](https://github.com/wlopera/react_banca/assets/7141537/5e37d481-a70a-4a80-9cbf-03768335b576)
+![image](https://github.com/user-attachments/assets/54becf20-1d06-4b59-a494-e39dbd5f1658)
+![image](https://github.com/user-attachments/assets/b06127a4-2b41-4cc8-88e3-ad9eb1bcffc2)
 
 Manejo de estilos y colores
-
-![image](https://github.com/wlopera/react_banca/assets/7141537/58587ae5-b963-47e8-8b34-d1eba428b986)
+![image](https://github.com/user-attachments/assets/44d44de3-e9a6-4c25-92e0-4aaba50d1148)
+![image](https://github.com/user-attachments/assets/d067a5ab-2ea4-40cc-abc4-919c45400d60)
 
 Manejo de errores:
 
-![image](https://github.com/wlopera/react_banca/assets/7141537/57a1f296-7717-4dfa-aac3-94d0a5babcab)
-
-
 ## Documentación
-
-Ver Proyecto Graphql-Server: https://github.com/wlopera/graphql-server
-
 Puedes ver el documento completo del proyecto en formato PDF desde el siguiente enlace:
-
 <a href="https://github.com/wlopera/react-practical-exercises/blob/50b9067a8f57125500d14df9b844bf6ffd5b0b5c/src/doc/Proyecto-practical-exercises.pdf" target="_blank">Ver el PDF del proyecto</a>
