@@ -29,6 +29,16 @@ export const menuData = [
     name: "Título de la página (useEffect)",
     component: "/page/title",
   },
+  {
+    key: "mouse-cursor",
+    name: "Coordenas del Mouse (useEffect)",
+    component: "/mouse/cursor",
+  },
+  {
+    key: "api-fetch",
+    name: "Peticiones API fetch",
+    component: "/api/fetch",
+  },
 ];
 
 export const ARTICLES = [
