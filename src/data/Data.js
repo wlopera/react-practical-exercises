@@ -39,6 +39,16 @@ export const menuData = [
     name: "Peticiones API fetch",
     component: "/api/fetch",
   },
+  {
+    key: "control-form",
+    name: "Formulario enlace de controles con variables de estados",
+    component: "/control/form",
+  },
+  {
+    key: "validation-form",
+    name: "Formularios: validación inmediata",
+    component: "/validation/form",
+  },
 ];
 
 export const ARTICLES = [

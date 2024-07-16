@@ -17,6 +17,8 @@ import { PageTitle } from "../exercises/PageTitle";
 import { ListSum } from "../exercises/ListSum";
 import { MouseMoveCursor } from "../exercises/MouseMoveCursor";
 import { ApiFetch } from "../exercises/ApiFetch";
+import { ControlForm } from "../exercises/ControlForm";
+import { ValidationForm } from "../exercises/ValidationForm";
 
 const AdminScreen = () => {
   const [selectedOption, setSelectedOption] = useState("/event/capture");
@@ -46,6 +48,12 @@ const AdminScreen = () => {
 
       case "/api/fetch":
         return <ApiFetch />;
+
+      case "/control/form":
+        return <ControlForm />;
+
+      case "/validation/form":
+        return <ValidationForm />;
 
       default:
         break;
