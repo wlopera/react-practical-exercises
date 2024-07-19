@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { HeaderProcess } from "../../components/headerProcess/HeaderProcess";
 import styled from "styled-components";
 
-const title = "Formularios: validación inmediata  ";
+const title = "Formularios: validación inmediata";
 const description =
   "Vimos en el concepto anterior lo usual en React es asociar a cada control de un formulario HTML un 'estado' en la componente. Esto nos permite inmediatamente se produzca el cambio reaccionar ya sea aceptando o rechazando dicho dato. Cada vez que se realiza la carga de datos es un momento muy adecuado para implementar validaciones y no cambiar el 'estado' si los datos son incorrecto.";
 const exercise =

@@ -19,6 +19,10 @@ import { MouseMoveCursor } from "../exercises/MouseMoveCursor";
 import { ApiFetch } from "../exercises/ApiFetch";
 import { ControlForm } from "../exercises/ControlForm";
 import { ValidationForm } from "../exercises/ValidationForm";
+import { TextAreaForm } from "../exercises/TextAreaForm";
+import { SelectForm } from "../exercises/SelectForm";
+import { ShowImage } from "../exercises/ShowImage";
+import { NestedCombo } from "../exercises/NestedCombo";
 
 const AdminScreen = () => {
   const [selectedOption, setSelectedOption] = useState("/event/capture");
@@ -54,6 +58,18 @@ const AdminScreen = () => {
 
       case "/validation/form":
         return <ValidationForm />;
+
+      case "/textarea/form":
+        return <TextAreaForm />;
+
+      case "/select/form":
+        return <SelectForm />;
+
+      case "/show/image":
+        return <ShowImage />;
+
+      case "/nested/combos":
+        return <NestedCombo />;
 
       default:
         break;
